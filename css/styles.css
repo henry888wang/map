@@ -1,0 +1,162 @@
+body,html{
+  
+margin:0px;
+
+}
+
+#map{
+  position:relative;
+  width:100%;
+  height:1280px;
+  background-image:url(https://scontent.ftpe8-4.fna.fbcdn.net/v/t1.15752-9/102919574_2626917677588602_6221053456361338180_n.png?_nc_cat=102&_nc_sid=b96e70&_nc_ohc=fyqyQNWYzLoAX9l8S4h&_nc_ht=scontent.ftpe8-4.fna&oh=b4e6d9cfe4a5ced4abe228a4321c178c&oe=5F0A6014);
+  background-repeat: no-repeat;
+  background-size:cover;
+  opacity:20%;
+  
+
+  
+}
+
+#h1{
+font-size:64px;
+font-family: 'Mali', cursive;
+position:absolute;
+top:350px;
+left:200px;
+
+}
+
+.btnx{
+font-size:60px;
+transform:translate(-50%,-50%);
+transition:all 0.35s;
+border-radius:10px 10px 10px 10px;
+font-family: 'Noto Sans TC',sans-serif;
+box-shadow: 5px 5px 5px 1px rgba(20%,20%,40%,0.5),inset 1px 1px 4px 2px rgba(20%,20%,40%,0.5);
+border:solid;
+}
+
+.btn{
+ display:none;
+font-size:30px;
+transform:translate(-50%,-50%);
+transition:all 0.35s;
+border-radius:10px 10px 10px 10px;
+font-family: 'Noto Sans TC',sans-serif;
+box-shadow: 5px 5px 5px 1px rgba(20%,20%,40%,0.5),inset 1px 1px 4px 2px rgba(20%,20%,40%,0.5);
+border:solid;
+}
+
+.btnx:hover{
+  
+  font-size:80px;
+}
+
+.btn:hover{
+  
+  
+  font-size:45px;
+}
+@keyframes map{
+0%{
+opacity:20%;
+}
+100%{
+opacity:100%;
+}
+
+}
+@keyframes iceland{
+0%{
+opacity:0%;
+position:absolute;
+top:130px;
+}
+100%{
+opacity:100%;;
+top:80px;}
+}
+
+@keyframes france{
+0%{
+opacity:0%;
+position:absolute;
+top:860px;
+}
+100%{
+opacity:100%;;
+top:810p;}
+}
+
+@keyframes england{
+0%{
+opacity:0%;
+position:absolute;
+top:650px;
+}
+100%{
+opacity:100%;;
+top:600p;}
+}
+
+@keyframes swissland{
+0%{
+opacity:0%;
+position:absolute;
+top:850px;
+}
+100%{
+opacity:100%;;
+top:800p;}
+}
+
+@keyframes morocco{
+0%{
+opacity:0%;
+position:absolute;
+top:1300px;
+}
+100%{
+opacity:100%;;
+top:1250p;}
+}
+
+@keyframes motto{
+0%{
+opacity:0%;
+
+}
+100%{
+opacity:100%;
+
+ }
+}
+
+@keyframes h2{
+0%{
+top:200px;
+font-size:40px;
+}
+
+25%{
+top:120px;
+font-size:42px;
+}
+
+70%{
+ font-size:40px;
+top:200px;
+}
+
+
+80%{
+top:195px;
+font-size:40px;
+}
+
+100%{
+  font-size:40px;
+top:200px;
+
+ }
+}
