@@ -6,23 +6,24 @@ margin:0px;
 
 #map{
   position:relative;
-  width:100%;
+  width: 1900px;
   height:1280px;
   background-image:url(https://scontent.ftpe8-4.fna.fbcdn.net/v/t1.15752-9/102919574_2626917677588602_6221053456361338180_n.png?_nc_cat=102&_nc_sid=b96e70&_nc_ohc=fyqyQNWYzLoAX9l8S4h&_nc_ht=scontent.ftpe8-4.fna&oh=b4e6d9cfe4a5ced4abe228a4321c178c&oe=5F0A6014);
   background-repeat: no-repeat;
   background-size:cover;
   opacity:20%;
   
+  
 
   
 }
 
 #h1{
-font-size:64px;
+font-size:58px;
 font-family: 'Mali', cursive;
 position:absolute;
 top:350px;
-left:200px;
+left:150px;
 
 }
 
@@ -160,4 +161,19 @@ top:200px;
 
  }
 }
+
+
+@keyframes abc{
+
+  0%{
+  opacity:100%;
+  }
+    
+  100%{
+  
+  opacity:0%;
+  
+  }
+  
+  }
 
