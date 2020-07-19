@@ -8,7 +8,7 @@ margin:0px;
   position:relative;
   width: 1900px;
   height:1280px;
-  background-image:url(https://github.com/henry888wang/Map2/blob/gh-pages/assets/map.png?raw=true);
+  background-image:url("https://github.com/henry888wang/Map2/blob/gh-pages/assets/map.png?raw=true");
   background-repeat: no-repeat;
   background-size:cover;
   opacity:20%;
